@@ -1,0 +1,17 @@
+{
+    "group": {
+        "default": {
+            "target": [
+                "simple-ci"
+            ]
+        }
+    },
+    "target": {
+        "simple-ci": {
+            "dockerfile": "build/package/Dockerfile",
+            "tags": [
+                "ghcr.io/mohammadne/simple-ci"
+            ]
+        }
+    }
+}
